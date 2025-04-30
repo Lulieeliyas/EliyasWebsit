@@ -1,0 +1,214 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+.Contact{
+    width: 1000px;
+    height: auto;
+    margin: 10px;
+    justify-content: center;
+    background-color: aqua;
+    align-items: center;
+    font-family: "Raleway",sans-serif;
+    margin-top: -10%;
+    color: aqua;position: relative;
+}
+.form{
+    margin-top: -8%;
+    padding-left: 20%;
+    text-align: left;
+    color: aqua;
+}
+
+.Contact .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    color: aqua;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.Contact h1{
+font-family: 'Times New Roman';
+font-size: 50px;
+padding-left: 20px;
+color: rgb(98, 0, 255);
+margin-top: 10px;
+letter-spacing: 2px;
+
+}
+.Contact .cn{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s case;
+}
+.Contact .cn a{
+    text-decoration: none;
+color: black;
+transition: .3s case;
+}
+.cn:hover{
+    background-color: white;
+}
+.Contact span{
+    color: aqua;
+    font-size: 60px;
+}
+.form{
+    width: 250px;
+    height: 400px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 250px;
+    left: 700px;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+.form h2{
+    width: 250px;
+    font-family: sans-serif;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 200px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid orangered;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: chartreuse;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+
+}
+::placeholder{
+    color: aliceblue;
+    font-family: Arial;
+
+}
+.btrn{
+    width: 200px;
+    height: 40px;
+background: orange;
+border: none;
+margin-top: 25px;
+font-size: 20px;
+border-radius: 10px;
+cursor: pointer;
+color: gainsboro;
+transition: .4s case;
+}
+.btrn:hover{
+    background-color: aliceblue;
+    color: aqua;
+}
+.btrn a{
+text-decoration: none;
+color: black;
+font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+padding-top: 20px;
+text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: orange;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.icon ion-icon{
+    color: aqua;
+    font-size: 25px;
+    padding-left: 14px;
+    padding-top: 5px;
+}
+    
+
+    </style>
+</head>
+<br>
+<br>
+<body>
+<div class="Contact">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 style="color: blueviolet;">web design and <br>Development</h1>
+    <button class="cn"><a href="join us">Join us</a></button>
+        <div style="color: blue;">
+<b style="color: blue;">you can contact me through this ...</b><br><br>
+phone number:- <ins>+251946208221</ins> <br><br>
+reserve phone number:-<ins>+251921459991</ins><br><br>
+<h1><u>Email contact</u></h1>
+<!-- <a href="lulieeliyas@gmail.com" where="search on google">email:-lulieeliyas@gmail.com </a><br><br> -->
+<a href="mailto:lulieeliyas@gmail.com">
+    <button style="background-color: blue; color: white; padding: 10px 15px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+        📧lulieeliyas@gmail.com
+    </button>
+</a><br><br>
+
+Telegram contact with:-
+<!-- <a href="@abo991" >@abo991 </a><br><br> -->
+<a href="https://t.me/abo9991" target="@abo9991">@abo9991</a>
+<br><br>
+ or this:-
+ <a href="https://t.me/abo4620" target="@abo4620">@abo4620</a>
+ <br>
+ <br>
+ <br>
+ <br>
+<form style="text-align: center;" name="comment-form" method="post">        
+    <label>Comment</label>
+  <textarea style="background-color: rgb(196, 230, 255);" name="comment"rows="10" cols="70" text-align="center" value="write yourcoment her" placeholder="write your comment here and send me"></textarea><br>
+    <input type="submit" value="send a coment">
+    <input type="reset"><br><br>
+        </div>
+    </form>
+    <form action="process-signin.php" method="POST">
+    <div class="form">
+    <h2>Login here</h2>
+    <input type="Email" id="Email" name="Email" placeholder="enter Email here" required><br>
+    <input type="password" id="password" name="password" placeholder="enter password here" required><br>
+    <button class="btrn" type="submit">Login</button>
+    <p class="link">I don't have an account<br>
+        <button class="btrn" type="submit">Sign Up</button>
+        <p class="liw">Login with</p>
+    </form>
+   
+</body>
+</html>
